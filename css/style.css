@@ -1224,3 +1224,9 @@ ul.social_icon li a i:hover {
 .portfolio_page .footer {
     margin-top: 60px;
 }
+
+
+.site-navbar ul li a {
+    font-size: 21px;
+    font-weight: 700;
+}
