@@ -318,7 +318,9 @@ button {
 }
 
 .logo a {
-    color: #363636;
+    /* color: #363636; */
+    color: white;
+    text-shadow: 0 0 9px #202020, 0 0 9px;
     font-size: 41px;
     font-weight: 600;
 }
@@ -432,10 +434,10 @@ button {
 /** banner section **/
 
 .full_bg {
-    background: url(../images/banner.jpg);
+    background: url(../images/p1.jpg);
     height: 100vh;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 
@@ -1229,4 +1231,26 @@ ul.social_icon li a i:hover {
 .site-navbar ul li a {
     font-size: 21px;
     font-weight: 700;
+}
+
+.thumb-image {
+    margin: 5px;
+    max-width: 400px;
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    border: 1px solid #cacaca;
+    box-shadow: 0 6px 6px rgb(255, 255, 255);
+    transition: transform 0.5s;
+
+    /* &:nth-child(1) {
+      transform: rotateZ(10deg);
+    }
+
+    &:nth-child(2) {
+      transform: rotateZ(4deg);
+    } */
 }
