@@ -313,7 +313,7 @@ button {
 /*-- header --*/
 
 .header-area {
-    border-top: #fdc001 solid 40px;
+    border-top: #fdc001 solid 20px;
     width: 100%;
 }
 
@@ -434,7 +434,7 @@ button {
 /** banner section **/
 
 .full_bg {
-    background: url(../images/p1.jpg);
+    background: url(../images/bg.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: top;
